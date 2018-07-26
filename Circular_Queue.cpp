@@ -32,7 +32,7 @@ int Queue::isEmpty()
     int empty = 0 ;
 
     if( front == rear + 1 )
-        empty = 1;
+         empty = 1;
 
     return empty;
 }
