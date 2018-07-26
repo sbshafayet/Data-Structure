@@ -64,5 +64,4 @@ int main()
 	s1.show();
 	s1.pop();
 	return 0;
-
 }
