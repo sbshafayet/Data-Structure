@@ -27,19 +27,19 @@ void stack::push(char ch)
 {
     if(top == 10)
 	{
-	  cout << "Stack is full";
-		return ;
+     cout << "Stack is full";
+        return ;
 	}
-	a[top] = ch;
-	top++;
+      a[top] = ch;
+      top++;
 }
 
 char stack::pop()
 {
     if(top == 0)
 	{
-		cout << "Stack is empty";
-		return 0;
+    cout << "Stack is empty";
+	  return 0;
 	}
 	top--;
 	return a[top];
