@@ -33,7 +33,7 @@ public:
 
     void pop() {
         if (!isEmpty())
-            head++;
+             head++;
         else cerr << "UNDERFLOW" << endl;
     }
 
