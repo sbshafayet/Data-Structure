@@ -1,0 +1,21 @@
+
+
+#include<stdio.h>
+
+int main() {
+
+int a[100], i, n;
+float avg=0;
+printf("Number of Inputs: ");
+scanf(" %d", &n);
+printf("\Enter the element of find average: ");
+for(i=0 ; i<n ; i++ )
+scanf(" %d", &a[i]);
+for(i=0 ; i<n ; i++ )
+avg = avg + a[i];
+avg = avg / n;
+printf("average is %f ", avg);
+
+return 0;
+
+}
