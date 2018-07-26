@@ -27,7 +27,7 @@ void stack::push(char ch)
 {
     if(top == 10)
 	{
-     cout << "Stack is full";
+    cout << "Stack is full";
         return ;
 	}
       a[top] = ch;
