@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int sum_1(int a,int b)
+{
+    return (a+b);
+}
+double sum_1(double a, int b)
+{
+    return (a+b);
+}
+int main()
+{
+    cout<<sum_1(5,7)<<endl;
+    cout<<sum_1(5.9999,7)<<endl;
+    return 0;
+}
