@@ -72,7 +72,7 @@ return A[front];
 
 void Print()
 {
-int count = (rear+Max-front)%Max­ + 1;
+int count = (rear+Max-front)%Max + 1;
 cout<<"Queue : ";
 for(int i = 0; i <count; i++)
 {
